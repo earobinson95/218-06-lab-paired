@@ -1,4 +1,5 @@
 .Rproj.user
+*.Rproj
 .Rhistory
 .RData
 .Ruserdata
@@ -6,3 +7,4 @@
 218-06lab-color-interference-key.pdf
 218-06lab-color-interference-key.qmd
 keycol.tex
+218-06-lab-paired.Rproj
