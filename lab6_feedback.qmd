@@ -3,13 +3,52 @@ title: "Lab 6 Feedback"
 format: html
 ---
 
-## Question 9 
+# COMPLETION (for ISA's)
+
+## Question 5
+
+Check histograms:
+
+1. Good bin width?
+2. Reader friendly labels?
+
+## Question 12 `t_test()`
+
+**if they set mu = 2.3**
+
+Remember mu is set equal to our null value. If there is not‘ a difference in the reading time between the two forms, what do we expect the mean of the differences in reading time to be?
 
 **If they have an alternative of less or two-sided:**
 
-Careful! In the hypotheses in #4 we said that the mean of the differences in 
-read times should be greater than 0, assuming that it take people longer to read
-the color names when they are printed in mismatched colors than in black text. 
+Careful! In the hypotheses we said that the mean of the differences in read times should be greater than 0, assuming that it take people longer to read the color names when they are printed in mismatched colors than in black text.
+
+
+## Question 17
+
+**If they talk about the p-value being in the interval:**
+
+A p-value is the probability of obtaining a mean difference of 2.46 or something larger, if there was no difference in the read times between the two formats (a mean difference of 0). The confidence interval is the range of values that we are 95% confident captures the mean difference. The confidence interval will agree with our hypothesis test, if the null value (0) is not contained in the interval! 
+
+**If they say they don't agree:**
+
+If the p-value is less than 0.05, we would reject the null hypothesis. If our 95% confidence interval does not include 0, then we would also reject the null hypothesis. The only way these methods would not agree is if you had a p-value less than 0.05 and your confidence interval contained 0! 
+
+## Question 18
+
+**If they say yes but not because of randomization:**
+
+This statement agrees with what our analysis found, but the key aspect of their interpretation is the use of the word **CAUSE**. Can the researchers say if  printing the color names in mismatched colors CAUSED and increase in the time it took to read them? Hint: Look at the description for how they decided what order people read the two lists in. 
+
+**If they say no because there isn't randomization:**
+
+Look back at the description for how they decided what order people read the two lists in. In the case of paired data, we don't have a control group. Instead,each person is assigned both "treatments" -- here they read both lists. 
+
+**If they say no because it's observational:**
+
+Careful! Experiments have random assignment rather than us just observing the time it takes people to read two different lists of words. The researchers in this study randomly assigned which list a person read first versus second. 
+
+
+# CANVAS QUIZ (for instructor)
 
 ## Question 10
 
@@ -47,47 +86,6 @@ Careful! The units for the differences is seconds not minutes!
 Caution! We are analyzing the difference in read times and taking the mean of
 those differences. This is referred to as the mean of the differences **not** the
 difference in means!
-
-
-## Question 13
-
-**If they talk about the p-value being in the interval:**
-
-A p-value is the probability of obtaining a mean difference of 2.46 or something
-larger, if there was no difference in the read times between the two formats
-(a mean difference of 0). The confidence interval is the range of values that we
-are 95% confident captures the mean difference. The confidence interval will
-agree with our hypothesis test, if the null value (0) is not contained in the 
-interval! 
-
-**If they say they don't agree:**
-
-If the p-value is less than 0.05, we would reject the null hypothesis. If our 
-95% confidence interval does not include 0, then we would also reject the null
-hypothesis. The only way these methods would not agree is if you had a p-value
-less than 0.05 and your confidence interval contained 0! 
-
-## Question 14
-
-**If they say yes but not because of randomization:**
-
-This statement agrees with what our analysis found, but the key aspect of their
-interpretation is the use of the word **CAUSE**. Can the researchers say if 
-printing the color names in mismatched colors CAUSED and increase in the time 
-it took to read them? Hint: Look at the description for how they decided what 
-order people read the two lists in. 
-
-**If they say no because there isn't randomization:**
-
-Look back at the description for how they decided what order people read the two
-lists in. In the case of paired data, we don't have a control group. Instead, 
-each person is assigned both "treatments" -- here they read both lists. 
-
-**If they say no because it's observational:**
-
-Careful! Experiments have random assignment rather than us just observing the 
-time it takes people to read two different lists of words. The researchers in 
-this study randomly assigned which list a person read first versus second. 
 
 
 
