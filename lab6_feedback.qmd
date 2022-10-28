@@ -3,14 +3,19 @@ title: "Lab 6 Feedback"
 format: html
 ---
 
-# COMPLETION (for ISA's)
+# COMPLETION
 
 ## Question 5
 
 Check histograms:
 
-1. Good bin width?
-2. Reader friendly labels?
+**If they don't have a good bin widht**
+
+When deciding on a bin width for your histograms, make sure the histogram looks smoothed out and not too choppy. Try increasing your bin width to see the shape of the histogram a little better!
+
+**If they dont' have informative or reader friendly axis labels**
+
+Make sure to be descriptive in your histogram axis labels! What is the histogram displaying?
 
 ## Question 12 `t_test()`
 
@@ -48,44 +53,82 @@ Look back at the description for how they decided what order people read the two
 Careful! Experiments have random assignment rather than us just observing the time it takes people to read two different lists of words. The researchers in this study randomly assigned which list a person read first versus second. 
 
 
-# CANVAS QUIZ (for instructor)
+# CANVAS QUIZ
 
-## Question 10
+## Canvas Question 2 (Lab 1)
 
-**If they say 0.08% chance of the null:**
+**If they say independent**
 
-A p-value is the probability of obtaining a mean difference of 2.46 or something
-larger, if there was no difference in the read times between the two formats
-(a mean difference of 0). 
+Careful! Since we have the same student reading the words in a different color and in black text, we have natural pairing across the two groups.
 
-**If they don't interpret the p-value:**
-
-The question here is not about whether you would reject or fail to reject the
-null hypothesis. Rather, you are being asked to **interpret** what the p-value
-of 0.00812 means! Hint: it's the probability of ***assuming ***...
-
-## Question 12
-
-**If they interpret the CI with infinity:**
-
-Your interpretation is correct, but it is a bit simpler to say that we are 95% 
-confident the true mean of the differences in read times is **at least** as 
-large as 0.744 seconds. 
-
-**If they forget the units!**
-
-Careful! We need to be sure to include the units associated with our confidence
-interval -- is 0.744 in seconds? Minutes? Hours?
-
-**If they use the wrong units:**
-
-Careful! The units for the differences is seconds not minutes!
+## Canvas Question 3 (Lab 2)
 
 **If they say "the difference in means":**
 
 Caution! We are analyzing the difference in read times and taking the mean of
 those differences. This is referred to as the mean of the differences **not** the
 difference in means!
+
+## Canvas Question 5 (Lab 4)
+
+**If they say mu_color - mu_black:**
+
+Remember, this is a paired design! Therefore we are taking the mean of the difference column and indicate this with only one mu.
+
+**If they say (not equal to)**
+
+Careful, what was our research question? We want to know if reading the color words in a different color INCREASES the time.
+
+## Canvas Question 13 (Lab 14)
+
+**If they have 0.008% instead of 0.8%**
+
+Make sure to convert your p-value to a probability by multiplying by 100!
+
+## Canvas Question 15 (Lab 16)
+
+**If they have 95% instead of 99%**
+
+Take a look at your t_text() code; what is the conf.level?
+
+
+
+<!-- ## Question 10 -->
+
+<!-- **If they say 0.08% chance of the null:** -->
+
+<!-- A p-value is the probability of obtaining a mean difference of 2.46 or something -->
+<!-- larger, if there was no difference in the read times between the two formats -->
+<!-- (a mean difference of 0).  -->
+
+<!-- **If they don't interpret the p-value:** -->
+
+<!-- The question here is not about whether you would reject or fail to reject the -->
+<!-- null hypothesis. Rather, you are being asked to **interpret** what the p-value -->
+<!-- of 0.00812 means! Hint: it's the probability of ***assuming ***... -->
+
+<!-- ## Question 12 -->
+
+<!-- **If they interpret the CI with infinity:** -->
+
+<!-- Your interpretation is correct, but it is a bit simpler to say that we are 95%  -->
+<!-- confident the true mean of the differences in read times is **at least** as  -->
+<!-- large as 0.744 seconds.  -->
+
+<!-- **If they forget the units!** -->
+
+<!-- Careful! We need to be sure to include the units associated with our confidence -->
+<!-- interval -- is 0.744 in seconds? Minutes? Hours? -->
+
+<!-- **If they use the wrong units:** -->
+
+<!-- Careful! The units for the differences is seconds not minutes! -->
+
+<!-- **If they say "the difference in means":** -->
+
+<!-- Caution! We are analyzing the difference in read times and taking the mean of -->
+<!-- those differences. This is referred to as the mean of the differences **not** the -->
+<!-- difference in means! -->
 
 
 

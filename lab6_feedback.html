@@ -59,15 +59,15 @@ ul.task-list li input[type="checkbox"] {
 
 </header>
 
-<section id="completion-for-isas" class="level1">
-<h1>COMPLETION (for ISA’s)</h1>
+<section id="completion" class="level1">
+<h1>COMPLETION</h1>
 <section id="question-5" class="level2">
 <h2 class="anchored" data-anchor-id="question-5">Question 5</h2>
 <p>Check histograms:</p>
-<ol type="1">
-<li>Good bin width?</li>
-<li>Reader friendly labels?</li>
-</ol>
+<p><strong>If they don’t have a good bin widht</strong></p>
+<p>When deciding on a bin width for your histograms, make sure the histogram looks smoothed out and not too choppy. Try increasing your bin width to see the shape of the histogram a little better!</p>
+<p><strong>If they dont’ have informative or reader friendly axis labels</strong></p>
+<p>Make sure to be descriptive in your histogram axis labels! What is the histogram displaying?</p>
 </section>
 <section id="question-12-t_test" class="level2">
 <h2 class="anchored" data-anchor-id="question-12-t_test">Question 12 <code>t_test()</code></h2>
@@ -93,25 +93,57 @@ ul.task-list li input[type="checkbox"] {
 <p>Careful! Experiments have random assignment rather than us just observing the time it takes people to read two different lists of words. The researchers in this study randomly assigned which list a person read first versus second.</p>
 </section>
 </section>
-<section id="canvas-quiz-for-instructor" class="level1">
-<h1>CANVAS QUIZ (for instructor)</h1>
-<section id="question-10" class="level2">
-<h2 class="anchored" data-anchor-id="question-10">Question 10</h2>
-<p><strong>If they say 0.08% chance of the null:</strong></p>
-<p>A p-value is the probability of obtaining a mean difference of 2.46 or something larger, if there was no difference in the read times between the two formats (a mean difference of 0).</p>
-<p><strong>If they don’t interpret the p-value:</strong></p>
-<p>The question here is not about whether you would reject or fail to reject the null hypothesis. Rather, you are being asked to <strong>interpret</strong> what the p-value of 0.00812 means! Hint: it’s the probability of <strong><em>assuming </em></strong>…</p>
+<section id="canvas-quiz" class="level1">
+<h1>CANVAS QUIZ</h1>
+<section id="canvas-question-2-lab-1" class="level2">
+<h2 class="anchored" data-anchor-id="canvas-question-2-lab-1">Canvas Question 2 (Lab 1)</h2>
+<p><strong>If they say independent</strong></p>
+<p>Careful! Since we have the same student reading the words in a different color and in black text, we have natural pairing across the two groups.</p>
 </section>
-<section id="question-12" class="level2">
-<h2 class="anchored" data-anchor-id="question-12">Question 12</h2>
-<p><strong>If they interpret the CI with infinity:</strong></p>
-<p>Your interpretation is correct, but it is a bit simpler to say that we are 95% confident the true mean of the differences in read times is <strong>at least</strong> as large as 0.744 seconds.</p>
-<p><strong>If they forget the units!</strong></p>
-<p>Careful! We need to be sure to include the units associated with our confidence interval – is 0.744 in seconds? Minutes? Hours?</p>
-<p><strong>If they use the wrong units:</strong></p>
-<p>Careful! The units for the differences is seconds not minutes!</p>
+<section id="canvas-question-3-lab-2" class="level2">
+<h2 class="anchored" data-anchor-id="canvas-question-3-lab-2">Canvas Question 3 (Lab 2)</h2>
 <p><strong>If they say “the difference in means”:</strong></p>
 <p>Caution! We are analyzing the difference in read times and taking the mean of those differences. This is referred to as the mean of the differences <strong>not</strong> the difference in means!</p>
+</section>
+<section id="canvas-question-5-lab-4" class="level2">
+<h2 class="anchored" data-anchor-id="canvas-question-5-lab-4">Canvas Question 5 (Lab 4)</h2>
+<p><strong>If they say mu_color - mu_black:</strong></p>
+<p>Remember, this is a paired design! Therefore we are taking the mean of the difference column and indicate this with only one mu.</p>
+<p><strong>If they say (not equal to)</strong></p>
+<p>Careful, what was our research question? We want to know if reading the color words in a different color INCREASES the time.</p>
+</section>
+<section id="canvas-question-13-lab-14" class="level2">
+<h2 class="anchored" data-anchor-id="canvas-question-13-lab-14">Canvas Question 13 (Lab 14)</h2>
+<p><strong>If they have 0.008% instead of 0.8%</strong></p>
+<p>Make sure to convert your p-value to a probability by multiplying by 100!</p>
+</section>
+<section id="canvas-question-15-lab-16" class="level2">
+<h2 class="anchored" data-anchor-id="canvas-question-15-lab-16">Canvas Question 15 (Lab 16)</h2>
+<p><strong>If they have 95% instead of 99%</strong></p>
+<p>Take a look at your t_text() code; what is the conf.level?</p>
+<!-- ## Question 10 -->
+<!-- **If they say 0.08% chance of the null:** -->
+<!-- A p-value is the probability of obtaining a mean difference of 2.46 or something -->
+<!-- larger, if there was no difference in the read times between the two formats -->
+<!-- (a mean difference of 0).  -->
+<!-- **If they don't interpret the p-value:** -->
+<!-- The question here is not about whether you would reject or fail to reject the -->
+<!-- null hypothesis. Rather, you are being asked to **interpret** what the p-value -->
+<!-- of 0.00812 means! Hint: it's the probability of ***assuming ***... -->
+<!-- ## Question 12 -->
+<!-- **If they interpret the CI with infinity:** -->
+<!-- Your interpretation is correct, but it is a bit simpler to say that we are 95%  -->
+<!-- confident the true mean of the differences in read times is **at least** as  -->
+<!-- large as 0.744 seconds.  -->
+<!-- **If they forget the units!** -->
+<!-- Careful! We need to be sure to include the units associated with our confidence -->
+<!-- interval -- is 0.744 in seconds? Minutes? Hours? -->
+<!-- **If they use the wrong units:** -->
+<!-- Careful! The units for the differences is seconds not minutes! -->
+<!-- **If they say "the difference in means":** -->
+<!-- Caution! We are analyzing the difference in read times and taking the mean of -->
+<!-- those differences. This is referred to as the mean of the differences **not** the -->
+<!-- difference in means! -->
 </section>
 </section>
 
